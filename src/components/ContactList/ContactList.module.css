@@ -2,13 +2,14 @@
   color: rgb(0, 100, 0);
   margin-left: 20px;
   margin-bottom: 25px;
-  display: inline-block;
-  justify-content: space-evenly;
-  align-content: center;
+}
+
+.position {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .button {
-  margin-top: 10px;
   text-decoration: none;
   background: none;
   outline: none;
